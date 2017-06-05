@@ -57,7 +57,7 @@ def operation():
 
 def sigchld_handler(x, y):	
 	pid, status = wait()
-	print 'server knows one chield server is dead'
+	print 'server knows one child server is dead'
 	main()
 
 def main():
